@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1216932942/arTurban.iml" filepath="$PROJECT_DIR$/.idea/modules/1216932942/arTurban.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/201954496/arTurban.core.iml" filepath="$PROJECT_DIR$/.idea/modules/201954496/arTurban.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/201954496/arTurban.core.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/201954496/arTurban.core.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/201954496/arTurban.core.main.iml" filepath="$PROJECT_DIR$/.idea/modules/201954496/arTurban.core.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/201954496/arTurban.core.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/201954496/arTurban.core.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-107615701/arTurban.sample-3d-model-viewer.iml" filepath="$PROJECT_DIR$/.idea/modules/-107615701/arTurban.sample-3d-model-viewer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-107615701/arTurban.sample-3d-model-viewer.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-107615701/arTurban.sample-3d-model-viewer.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-107615701/arTurban.sample-3d-model-viewer.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-107615701/arTurban.sample-3d-model-viewer.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-107615701/arTurban.sample-3d-model-viewer.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-107615701/arTurban.sample-3d-model-viewer.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2032404619/arTurban.sample-ar-model-viewer.iml" filepath="$PROJECT_DIR$/.idea/modules/2032404619/arTurban.sample-ar-model-viewer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/872309284/arTurban.sample-ar-model-viewer-java.iml" filepath="$PROJECT_DIR$/.idea/modules/872309284/arTurban.sample-ar-model-viewer-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/872309284/arTurban.sample-ar-model-viewer-java.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/872309284/arTurban.sample-ar-model-viewer-java.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/872309284/arTurban.sample-ar-model-viewer-java.main.iml" filepath="$PROJECT_DIR$/.idea/modules/872309284/arTurban.sample-ar-model-viewer-java.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/872309284/arTurban.sample-ar-model-viewer-java.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/872309284/arTurban.sample-ar-model-viewer-java.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2032404619/arTurban.sample-ar-model-viewer.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/2032404619/arTurban.sample-ar-model-viewer.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2032404619/arTurban.sample-ar-model-viewer.main.iml" filepath="$PROJECT_DIR$/.idea/modules/2032404619/arTurban.sample-ar-model-viewer.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2032404619/arTurban.sample-ar-model-viewer.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/2032404619/arTurban.sample-ar-model-viewer.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/arTurban.sample-augmented-faces.iml" filepath="$PROJECT_DIR$/.idea/modules/arTurban.sample-augmented-faces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/arTurban.sample-augmented-faces.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/arTurban.sample-augmented-faces.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/arTurban.sample-augmented-faces.main.iml" filepath="$PROJECT_DIR$/.idea/modules/arTurban.sample-augmented-faces.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/arTurban.sample-augmented-faces.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/arTurban.sample-augmented-faces.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-407071780/arTurban.sample-augmented-images.iml" filepath="$PROJECT_DIR$/.idea/modules/-407071780/arTurban.sample-augmented-images.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-407071780/arTurban.sample-augmented-images.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-407071780/arTurban.sample-augmented-images.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-407071780/arTurban.sample-augmented-images.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-407071780/arTurban.sample-augmented-images.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-407071780/arTurban.sample-augmented-images.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-407071780/arTurban.sample-augmented-images.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-809355972/arTurban.sample-depth.iml" filepath="$PROJECT_DIR$/.idea/modules/-809355972/arTurban.sample-depth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-809355972/arTurban.sample-depth.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-809355972/arTurban.sample-depth.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-809355972/arTurban.sample-depth.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-809355972/arTurban.sample-depth.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-809355972/arTurban.sample-depth.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-809355972/arTurban.sample-depth.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1645468990/arTurban.sample-environment-lights.iml" filepath="$PROJECT_DIR$/.idea/modules/1645468990/arTurban.sample-environment-lights.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1645468990/arTurban.sample-environment-lights.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/1645468990/arTurban.sample-environment-lights.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1645468990/arTurban.sample-environment-lights.main.iml" filepath="$PROJECT_DIR$/.idea/modules/1645468990/arTurban.sample-environment-lights.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1645468990/arTurban.sample-environment-lights.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/1645468990/arTurban.sample-environment-lights.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-821577694/arTurban.sample-image-texture.iml" filepath="$PROJECT_DIR$/.idea/modules/-821577694/arTurban.sample-image-texture.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-821577694/arTurban.sample-image-texture.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-821577694/arTurban.sample-image-texture.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-821577694/arTurban.sample-image-texture.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-821577694/arTurban.sample-image-texture.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-821577694/arTurban.sample-image-texture.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-821577694/arTurban.sample-image-texture.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1840251714/arTurban.sample-video-texture.iml" filepath="$PROJECT_DIR$/.idea/modules/1840251714/arTurban.sample-video-texture.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1840251714/arTurban.sample-video-texture.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/1840251714/arTurban.sample-video-texture.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1840251714/arTurban.sample-video-texture.main.iml" filepath="$PROJECT_DIR$/.idea/modules/1840251714/arTurban.sample-video-texture.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1840251714/arTurban.sample-video-texture.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/1840251714/arTurban.sample-video-texture.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1315428657/arTurban.sceneform.iml" filepath="$PROJECT_DIR$/.idea/modules/-1315428657/arTurban.sceneform.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1315428657/arTurban.sceneform.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-1315428657/arTurban.sceneform.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1315428657/arTurban.sceneform.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1315428657/arTurban.sceneform.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1315428657/arTurban.sceneform.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-1315428657/arTurban.sceneform.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-169621500/arTurban.ux.iml" filepath="$PROJECT_DIR$/.idea/modules/-169621500/arTurban.ux.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-169621500/arTurban.ux.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-169621500/arTurban.ux.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-169621500/arTurban.ux.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-169621500/arTurban.ux.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-169621500/arTurban.ux.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-169621500/arTurban.ux.unitTest.iml" />
+    </modules>
+  </component>
+</project>

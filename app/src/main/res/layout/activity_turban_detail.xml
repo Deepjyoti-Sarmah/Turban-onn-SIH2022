@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TurbanDetail">
+
+    <ImageView
+        android:id="@+id/imgTurban"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/turban_sample"/>
+    <TextView
+        android:id="@+id/txtTurbanName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sardar Pag"
+        android:layout_below="@id/imgTurban"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        android:layout_margin="5dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/txtTurLocat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTurbanName"
+        android:drawableLeft="@drawable/location_icon"
+        android:text=" Punjab"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        />
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTurLocat">
+        <TextView
+            android:id="@+id/txtTurbanDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This turban is found in Punjab and has been traditionally very important for the community. Its shape and size are round."
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:layout_margin="5dp"/>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnTryNow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:layout_centerHorizontal="true"
+        android:text="Try Now"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_alignBottom="@id/btnMakeTurban"
+        android:layout_alignParentLeft="true"
+        android:width="190dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginStart="4dp"
+        android:padding="5dp"/>
+
+    <Button
+        android:id="@+id/btnView3D"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:layout_alignRight="@id/btnTryNow"
+        android:layout_alignBottom="@id/btnMakeTurban"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:text="View In 3D"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:width="190dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginEnd="4dp"
+        android:padding="5dp"/>
+
+    <Button
+        android:id="@+id/btnMakeTurban"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Make Turban"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:width="190dp"
+        android:padding="5dp"/>
+
+</RelativeLayout>

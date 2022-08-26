@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/91700/AndroidStudioProjects/Turban/app/src/main/res/drawable/gradient_colors.xml" value="0.149" />
+        <entry key="..\:/Users/91700/AndroidStudioProjects/Turban/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/91700/AndroidStudioProjects/Turban/app/src/main/res/layout/activity_turban_detail.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/91700/AndroidStudioProjects/Turban/app/src/main/res/layout/recycler_demo.xml" value="0.1" />
+        <entry key="..\:/Users/91700/AndroidStudioProjects/Turban/app/src/main/res/layout/recycler_home_single_element.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/91700/AndroidStudioProjects/Turban/app/src/main/res/layout/splash_screen.xml" value="0.22" />
+        <entry key="..\:/Users/91700/AndroidStudioProjects/Turban/app/src/main/res/layout/turban_page.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/91700/AndroidStudioProjects/Turban/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.149" />
+        <entry key="..\:/Users/91700/AndroidStudioProjects/Turban/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.149" />
+        <entry key="..\:/Users/Ashish G/Desktop/C NOTES/android/Turban/app/src/main/res/layout/turban_page.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

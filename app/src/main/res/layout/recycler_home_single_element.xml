@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="322dp"
+    android:id="@+id/turbanCard"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ffffff"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="25dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/imgBookImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:padding="5dp"
+            android:src="@drawable/turban_sample" />
+        <TextView
+            android:id="@+id/txtTurbanName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Sardar Pag"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_below="@id/imgBookImage"
+            android:layout_centerHorizontal="true"
+            android:textSize="30sp"
+            android:layout_margin="4dp"/>
+        <TextView
+            android:id="@+id/txtTurbanDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_below="@id/txtTurbanName"
+            android:layout_centerHorizontal="true"
+            android:text="The dastār is a symbol of spirituality, holiness, and humility in Sikhism. The dastār is also a symbol of honour and self-respect."
+            android:layout_gravity="center"
+            android:textSize="20sp"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
