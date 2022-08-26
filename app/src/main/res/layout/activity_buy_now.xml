@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_colors"
+    tools:context=".BuyNow">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Payment GateWay"
+        android:layout_marginStart="10dp"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:padding="8dp"/>
+
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="7dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/name_icon"
+        android:hint="  Name"
+        android:inputType="text"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/etPhoneNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etName"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="7dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/mobile_number_icon"
+        android:hint="  Phone "
+        android:inputType="text"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/etLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etPhoneNo"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="7dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/location_icon"
+        android:hint="  Location "
+        android:inputType="text"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/yourOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Order"
+        android:textSize="30sp"
+        android:layout_below="@id/etLocation"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:padding="5dp"
+        />
+    <TextView
+        android:id="@+id/item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Items "
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/yourOrder"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/yourOrder"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:text="1X1"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/Fare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Fare "
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/item"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:text="Rs- 500"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/payMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Fare"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Payment Mode"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/cash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cash"
+        android:layout_below="@id/payMode"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Online"
+        android:layout_below="@id/cash"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"/>
+
+    <Button
+        android:id="@+id/payNow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="5dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="2dp"
+        android:text="Pay Now"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>

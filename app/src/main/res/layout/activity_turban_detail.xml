@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TurbanDetail">
+
+    <ImageView
+        android:id="@+id/imgTurban"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/turban_sample"/>
+    <TextView
+        android:id="@+id/txtTurbanName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sardar Pag"
+        android:layout_below="@id/imgTurban"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        android:layout_margin="5dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txtTurLocat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTurbanName"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/location_icon"
+        android:drawableTint="@color/white"
+        android:text=" Punjab"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTurLocat"
+        android:layout_alignBottom="@id/btnTryNow"
+        android:layout_marginBottom="45dp">
+
+        <TextView
+            android:id="@+id/txtTurbanDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="This turban is found in Punjab and has been traditionally very important for the community. Its shape and size are round."
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnTryNow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Try Now"
+        android:textStyle="bold"
+        android:layout_alignBottom="@id/btnMakeTurban"
+        android:layout_alignParentLeft="true"
+        android:width="190dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginStart="4dp"
+        android:padding="5dp"/>
+
+    <Button
+        android:id="@+id/btnView3D"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/btnTryNow"
+        android:layout_alignBottom="@id/btnMakeTurban"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:text="View In 3D"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:width="190dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginEnd="4dp"
+        android:padding="5dp"/>
+
+    <Button
+        android:id="@+id/btnMakeTurban"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:width="190dp"
+        android:padding="5dp"
+        android:text="Make Turban"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginStart="4dp"/>
+    <Button
+        android:id="@+id/btnBuyNow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="4dp"
+        android:padding="5dp"
+        android:width="190dp"
+        android:text="Buy Now"
+        android:textStyle="bold"/>
+
+    <ProgressBar
+        android:id="@+id/turbanDetailActivityProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        />
+
+</RelativeLayout>
